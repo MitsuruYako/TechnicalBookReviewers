@@ -69,6 +69,7 @@ https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjC
 #### boosty
 #### ITエンジニア本大賞
 #### テック・ブック・ランク
+#### みんなのランキング
 ##### 本サービスの特徴
 * 技術書レビュー数の多いユーザーのランキング表示がある。
 * ユーザーがランキングテーマを決定できる。
