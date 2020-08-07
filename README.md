@@ -3,8 +3,8 @@ Education Problem Solution by the Technical BookShelf Reviewers
 
 ## サイト概要(Overview)
 技術書のレビュー投稿閲覧サイト
-ユーザーは各テーマに対する技術書のレビューを投稿できます。
-各テーマの技術書レビューランキングを確認できます。
+ユーザーは各テーマに対する技術書のレビューを投稿できます。  
+各テーマの技術書レビューランキングを確認できます。  
 技術書レビューのランキングテーマはユーザーが作成できます。
 
 ## 当サイトの機能一覧
@@ -60,7 +60,8 @@ Education Problem Solution by the Technical BookShelf Reviewers
 ### 機能一覧
 https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjCs6M/edit#gid=0
 
-### サイトテーマを決める上で参考にしたサイト
+
+### 本PFを作成する上で参考にしたWebサイト
 * techshelf
 * 読書メーター
 * boosty
@@ -68,8 +69,6 @@ https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjC
 * テック・ブック・ランク
 * みんなのランキング
 * etc...
-技術書や本のレビューサイトは既に複数のサービスが用意されていますので、
-既存サービスとの違いや特徴を明確にするために記載します。
 
 ##### 本サービスの特徴
 * 技術書レビュー数の多いユーザーのランキング表示がある。
