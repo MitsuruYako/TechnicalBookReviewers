@@ -60,7 +60,7 @@ Education Problem Solution by the Technical BookShelf Reviewers
 ### 機能一覧
 https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjCs6M/edit#gid=0
 
-### VS.
+### 本PFを作成する上で参考にしたWebサイト
 技術書や本のレビューサイトは既に複数のサービスが用意されていますので、
 既存サービスとの違いや特徴を明確にするために記載しています。
 
@@ -69,7 +69,11 @@ https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjC
 #### boosty
 #### ITエンジニア本大賞
 #### テック・ブック・ランク
+
+匿名性の高いWebサイトでランキング集計を行いたいと考えたきっかけは
+下記に示すレビューサイトを確認したためです。
 #### みんなのランキング
+
 ##### 本サービスの特徴
 * 技術書レビュー数の多いユーザーのランキング表示がある。
 * ユーザーがランキングテーマを決定できる。
