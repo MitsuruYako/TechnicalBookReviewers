@@ -96,7 +96,7 @@ Education Problem Solution by the Technical BookShelf Reviewers
 https://docs.google.com/spreadsheets/d/1G0Cx_gHdXu1Itht3OpchkP-rfvLrty3b/edit#gid=354783196
 
 アプリケーション詳細設計
-
+https://docs.google.com/spreadsheets/d/1MvmxQ6FU_ShkghlER8pCuqeas-jR_6Qx/edit#gid=113104415
 
 ### 機能一覧
 https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjCs6M/edit#gid=0
