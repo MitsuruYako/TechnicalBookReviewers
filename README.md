@@ -92,6 +92,12 @@ Education Problem Solution by the Technical BookShelf Reviewers
 ## 設計書
 
 
+テーブル定義書
+https://docs.google.com/spreadsheets/d/1G0Cx_gHdXu1Itht3OpchkP-rfvLrty3b/edit#gid=354783196
+
+アプリケーション詳細設計
+
+
 ### 機能一覧
 https://docs.google.com/spreadsheets/d/18CWjBv4009HMRauyy5BN8kNgB5JtLIKQiQkzCMjCs6M/edit#gid=0
 
