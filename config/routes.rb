@@ -4,6 +4,5 @@ Rails.application.routes.draw do
   get '/about' => 'public/books#about', as: 'about_public_books'
   get '/reviews/:id' => 'public/reviews#show', as: 'show_public_reviews'
 
-  
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

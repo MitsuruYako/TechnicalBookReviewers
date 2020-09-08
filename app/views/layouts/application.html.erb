@@ -8,8 +8,28 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
+    <header class="navbar navbar-default">
+      <div class="container">
+        <nav class='nav navbar-nav navbar-left' >
+          <span><%= link_to 'Topへ', root_path %></span>
+        </nav>
+        <br>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to 'ランキング', '#', class: "btn btn-default navbar-btn" %></li>
+            <%# TODO:リンク %>
+            <li><%= link_to '書籍検索', '#', class: "btn btn-default navbar-btn" %></li>
+            <%# TODO:リンク %>
+            <li><%= link_to 'サイト紹介', '#', class: "btn btn-default navbar-btn" %></li>
+            <%# TODO:リンク %>
+            <li><%= link_to '新規登録', '#', class: "btn btn-default navbar-btn" %></li>
+            <%# TODO:リンク %>
+            <li><%= link_to 'ログイン', '#', class: "btn btn-default navbar-btn" %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <%= yield %>
   </body>
 </html>
