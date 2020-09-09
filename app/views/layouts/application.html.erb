@@ -15,6 +15,9 @@
           <span><%= link_to 'Topへ', root_path %></span>
         </nav>
         <br>
+        <% if user_signed_in? %>
+          <p>ようこそ、<%= current_user.name %>さん！</p>
+        <% end %>
         <nav>
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to 'ランキング', '#', class: "btn btn-default navbar-btn" %></li>
@@ -22,8 +25,14 @@
             <li><%= link_to '書籍検索', '#', class: "btn btn-default navbar-btn" %></li>
             <%# TODO:リンク %>
             <li><%= link_to 'サイト紹介', about_public_books_path, class: "btn btn-default navbar-btn" %></li>
-            <li><%= link_to '新規登録', new_user_registration_path, class: "btn btn-default navbar-btn" %></li>
-            <li><%= link_to 'ログイン', new_user_session_path, class: "btn btn-default navbar-btn" %></li>
+            <% if user_signed_in? %>
+              <%# TODO:リンク %>
+              <li><%= link_to 'マイページ', "#", class: "btn btn-default navbar-btn" %></li>
+              <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "btn btn-default navbar-btn" %></li>
+            <% else %>
+              <li><%= link_to '新規登録', new_user_registration_path, class: "btn btn-default navbar-btn" %></li>
+              <li><%= link_to 'ログイン', new_user_session_path, class: "btn btn-default navbar-btn" %></li>
+            <% end %>
           </ul>
         </nav>
       </div>

@@ -10,7 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_08_161057) do
+ActiveRecord::Schema.define(version: 2020_09_09_151301) do
+
+  create_table "tech_tags", force: :cascade do |t|
+    t.string "name", null: false
+    t.integer "level", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "tech_tags_maps", force: :cascade do |t|
+    t.integer "tech_tag_id", null: false
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -18,6 +32,8 @@ ActiveRecord::Schema.define(version: 2020_09_08_161057) do
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
+    t.string "name", null: false
+    t.boolean "withdraw_status", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
