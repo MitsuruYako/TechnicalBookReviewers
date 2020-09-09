@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
 
   def after_sign_in_path_for(resource)
     case resource
+    # TODO:
     # when Admin
     #   admin_top_path
     when User
@@ -12,6 +13,7 @@ class ApplicationController < ActionController::Base
 
   def after_sign_out_path_for(resource)
     case resource
+    # TODO:
     # when :admin
     #   new_admin_session_path
     when :user
