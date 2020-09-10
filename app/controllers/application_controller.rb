@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
     # when Admin
     #   admin_top_path
     when User
-      root_path
+      public_users_path
     end
   end
 

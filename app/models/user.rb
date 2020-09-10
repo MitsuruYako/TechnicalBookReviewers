@@ -4,6 +4,6 @@ class User < ApplicationRecord
   validates :name, presence: true
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
-  has_many :techtagsmaps
-
+  has_many :techtagsmaps, dependent: :destroy
+  has_many :tech_tags, through: :tech_tags_maps, dependent: :destroy
 end

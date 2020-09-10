@@ -26,8 +26,7 @@
             <%# TODO:リンク %>
             <li><%= link_to 'サイト紹介', about_public_books_path, class: "btn btn-default navbar-btn" %></li>
             <% if user_signed_in? %>
-              <%# TODO:リンク %>
-              <li><%= link_to 'マイページ', "#", class: "btn btn-default navbar-btn" %></li>
+              <li><%= link_to 'マイページ', public_users_path, class: "btn btn-default navbar-btn" %></li>
               <li><%= link_to 'ログアウト', destroy_user_session_path, method: :delete, class: "btn btn-default navbar-btn" %></li>
             <% else %>
               <li><%= link_to '新規登録', new_user_registration_path, class: "btn btn-default navbar-btn" %></li>
